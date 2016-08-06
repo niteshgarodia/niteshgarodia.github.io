@@ -1,0 +1,83 @@
+body{
+ margin: 0px;
+ letter-spacing: .1em;
+ word-spacing: .1em;
+ background-color: black;
+ color: white;
+ font-family: Georgia;
+}
+
+p{	
+font-size: 13px;
+}
+
+.div_img{
+	text-align:center;
+}
+
+.div_img img{
+	width:200px;
+	height:200px; 
+	align:top;
+}
+
+.headersec{
+    padding: 1% 15%;
+}
+#profile{
+
+	text-align: centre;
+}
+
+div{
+	display:block;
+	text-align: center;
+}
+
+#profile img{
+	height:110px;
+	width:110px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+h1{	
+	padding-top: 15px;
+   margin:0px 0px 0px 0px;
+   padding-bottom: 15px;
+   
+   opacity: .9px;
+}
+
+p{
+margin:0px 0px 0px 0px;
+padding-bottom: 8px;
+}
+
+ul{
+	padding-left: 0px;
+}
+li{
+	display:inline-block; 
+}
+ul li
+{
+ display:inline-block;
+ list-style: none;
+ word-spacing: 10px;
+}
+
+ li a{
+ 	  
+	 margin: 0px;
+	 padding: 0px;
+	 color: white;
+	 padding: 20px 30px;
+	 text-decoration: none;
+
+}
+
+li a:hover{
+	opacity: 0.6;
+}
+
