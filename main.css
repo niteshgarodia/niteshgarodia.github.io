@@ -87,7 +87,7 @@ h2{
 	font-size: 15px;
 }
 h2 a{
-	color: blue;
+	color: pink;
 }
 .footer{
 	margin: 30px;
@@ -114,6 +114,9 @@ li a img{
 }
 ul li a{
 	opacity: .2px;
+}
+p a{
+	color: grey;
 }
 
 
