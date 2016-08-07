@@ -134,6 +134,9 @@ padding-bottom: 8px;
   .footer_links li a img:hover{
   	opacity: 0.6;
   }
+  .nav_barli li a:hover{
+  	opacity: 0.6;
+  }
 
 
 
