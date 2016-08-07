@@ -118,6 +118,11 @@ ul li a{
 p a{
 	color: grey;
 }
+@media(max-width: 500px){
+.nav_barli li{
+display: block;;
+}
+}
 
 
 
