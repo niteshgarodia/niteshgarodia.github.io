@@ -131,6 +131,9 @@ padding-bottom: 8px;
 .NavigationBar{
 	margin-top: 45px;
 }
+  .footer_links li a img:hover{
+  	opacity: 0.6;
+  }
 
 
 
