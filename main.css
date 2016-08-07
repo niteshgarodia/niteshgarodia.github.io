@@ -70,15 +70,14 @@ ul li
  word-spacing: 10px;
 }
 
- li a{
+.Media_links li a{
  	  
 	 margin: 0px;
 	 padding: 0px;
 	 color: white;
-	 padding: 20px 30px;
 	 text-decoration: none;
 }
-li a:hover {
+.Media_links  a:hover {
 	opacity: 0.6;
 }
 h2{
@@ -92,12 +91,20 @@ h2 a{
 .footer{
 	margin: 30px;
 	text-align: center;
-	margin-top:120px; 
+	margin-top:80px; 
 	text-align-last: center;
 }
 .footer_links{
 	padding-top: 10px;
 }
+
+.footer_links li a img{
+width: 22px;
+}
+.footer_links li{
+	margin: 0px 10px;
+}
+
 .Media_lists{
 	list-style: none;
 }
@@ -108,20 +115,19 @@ a{
     font-size: 1.2em;
 }
 
-li a img{
-	width: 22px;
-	opacity: 0.6px;
-}
-ul li a{
-	opacity: .2px;
-}
 p a{
 	color: grey;
 }
 @media(max-width: 500px){
 .nav_barli li{
-display: block;;
+display: block;
+padding-bottom: 8px;
+
+
 }
+}
+.NavigationBar{
+	margin-top: 45px;
 }
 
 
