@@ -145,7 +145,9 @@ padding-bottom: 8px;
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 500px;
+    align: center;
+
 }
 
 img {
@@ -160,7 +162,7 @@ img {
 }
 .query{
 	margin: 10px;
-	
+
 }
 
 
