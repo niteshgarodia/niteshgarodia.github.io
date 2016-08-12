@@ -155,6 +155,11 @@ div.img img {
     height: auto;
 }
 
+#fire{
+ position:absolute;
+  top:140px; left:100px;
+  visibility:hidden;
+}
 
 
 
