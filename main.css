@@ -5,7 +5,7 @@ body{
  background-color: black;
  color: white;
  font-family: Georgia;
-}
+ }
 
 p{	
 font-size: 13px;
@@ -137,29 +137,23 @@ padding-bottom: 8px;
   .nav_barli li a:hover{
   	opacity: 0.6;
   }
-div.desc {
+.desc {
     padding: 15px;
     text-align: center;
 }
-div.img {
+.imgage {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
     width: 180px;
 }
-div.img:hover {
-    border: 1px solid #777;
-}
-div.img img {
+
+img {
     width: 100%;
     height: auto;
 }
 
-#fire{
- position:absolute;
-  top:140px; left:100px;
-  visibility:hidden;
-}
+
 
 
 
