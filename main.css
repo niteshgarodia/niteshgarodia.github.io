@@ -60,8 +60,9 @@ text-align: center;
 ul{
 	padding-left: 0px;
 }
-li{
-	display:inline-block; 
+ .nav_barli li{
+	display:inline-block;
+	border: 0.8px solid white;  
 }
 ul li
 {
@@ -103,7 +104,7 @@ h2 a{
 width: 22px;
 }
 .footer_links li{
-	margin: 0px 10px;
+	margin: 0px 5px;
 }
 
 .Media_lists{
@@ -119,14 +120,8 @@ a{
 p a{
 	color: grey;
 }
-@media(max-width: 500px){
-.nav_barli li{
-display: block;
-padding-bottom: 8px;
 
 
-}
-}
 
 .NavigationBar{
 	margin-top: 45px;
@@ -145,9 +140,16 @@ padding-bottom: 8px;
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 500px;
+    width: 300px;
     align: center;
+    opacity:0.9;
 
+}
+#Hover-Opacity img:HOVER{
+	width: 500px;
+	height: 500px;
+
+	
 }
 
 img {
@@ -161,9 +163,20 @@ img {
 	height: 50px;
 }
 .query{
-	margin: 10px;
+	margin: 0px;
 
 }
+@media(max-width: 500px){
+.nav_barli li{
+display: block;
+padding-bottom: 10px;
+}
+}
+
+input:focus { 
+    background-color: yellow;
+}
+
 
 
 
