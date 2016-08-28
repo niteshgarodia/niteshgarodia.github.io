@@ -17,11 +17,24 @@ function simpleMethod()
    	     	// 3.)    document.getElementById("label").innerText= "Invalid Username or password !!";
 
    	     	document.getElementById("label").style.display = "block";
-   	     	}
+            blinkLabel();
+
+            }
    	     
    	     //console.log("Program is Running till here to check this we use the console.log()")
    		//alert("this method call")
          };
+
+
+         function blinkLabel(){
+
+         $("#label").fadeOut(function(){
+            $("#label").fadeIn(blinkLabel());
+            });
+
+           };
+
+
 
          function nextAction()
              {
@@ -47,4 +60,5 @@ function simpleMethod()
          	 newElement.appendChild(textNode);
          	 var body = document.getElementById("sapUI");
          	 body.appendChild(newElement);
+             $("input").show(); 
 			}
