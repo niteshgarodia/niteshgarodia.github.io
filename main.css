@@ -289,6 +289,14 @@ input:focus {
   to {opacity: 1}
 }
 
+.button{
+  background-color: green;
+  color: black;
+  margin-top: 100px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 
 
 
